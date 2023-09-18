@@ -188,3 +188,37 @@ and-not nwell_tapped
 ```
 
 </details>
+
+<details>
+	<summary>DAY 4: Pre layout timing analysis and importance of good clock tree</summary>
+
+ To see the tracks file :
+
+ ![day4](https://github.com/DineshVenkatG/pes_pd/assets/99543009/5989115a-24bc-41b1-b05b-16605b6e0683)
+
+The ports should be in the intersection of vertical and horizontal tracks .
+To ensure that :
+
+In magic press ```g``` this activates the grid ,
+
+![day44](https://github.com/DineshVenkatG/pes_pd/assets/99543009/edc319d0-05cc-4a53-b05a-9619bdc31db2)
+
+save the layout with grid by typing ```save sky130_vsdinv.mag```
+
+Open using  ```magic -T sky130A.tch sky130_vsdinv.mag```
+
+in the console type ``` lef write sky130_vsdinv.lef```
+This will create the lef file 
+
+![day4444](https://github.com/DineshVenkatG/pes_pd/assets/99543009/44bf8b08-9878-4505-84c7-453ac9602a3d)
+
+## Including custom cell into openlane :
+
+![day44444](https://github.com/DineshVenkatG/pes_pd/assets/99543009/2b4dc305-8ed4-46cb-8018-ebc81606310d)
+
+![day4lef](https://github.com/DineshVenkatG/pes_pd/assets/99543009/a9994a46-ad0a-4c56-a237-5852d4c0af90)
+
+![day4invl](https://github.com/DineshVenkatG/pes_pd/assets/99543009/a6efb260-15ba-4074-88f3-0d9b657104ef)
+
+![day44invlllll](https://github.com/DineshVenkatG/pes_pd/assets/99543009/117dbf52-f0e8-426c-885e-b8e4186df263)
+</details>
