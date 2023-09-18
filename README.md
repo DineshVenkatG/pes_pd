@@ -74,3 +74,8 @@ From here we can see total number of cells is 9541 and dff (sky130_fd_sc_hd__dfx
     ```
 
     ![day2222](https://github.com/DineshVenkatG/pes_pd/assets/99543009/9ef6e54f-9ea3-4f0c-8ffa-32925a9a52aa)
+
+    ![day2222222](https://github.com/DineshVenkatG/pes_pd/assets/99543009/acadba77-d056-4780-a953-a28f211326d1)
+    ![day22222](https://github.com/DineshVenkatG/pes_pd/assets/99543009/d80f1158-4574-48b7-90a5-04aa2a9c0d76)
+    ![day222](https://github.com/DineshVenkatG/pes_pd/assets/99543009/7df797cd-479e-444b-b0e4-f32fe254c0a2)
+
