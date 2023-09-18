@@ -114,3 +114,12 @@ you need to make some changes in the spice file to get the simulation results :
 
 to see the ngspice simulation:
 ```ngspice sky130_inv.spice```
+
+![day3333](https://github.com/DineshVenkatG/pes_pd/assets/99543009/8b629d37-1111-44ba-be3e-222b88da4865)
+
+To get the transient analysis of inverter you can do 
+```plot y vs time a```
+
+![day3_y_vs_pa](https://github.com/DineshVenkatG/pes_pd/assets/99543009/c1ab2e03-04f4-469c-a50a-f167d93ae1d3)
+
+
