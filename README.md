@@ -79,3 +79,38 @@ From here we can see total number of cells is 9541 and dff (sky130_fd_sc_hd__dfx
     ![day22222](https://github.com/DineshVenkatG/pes_pd/assets/99543009/d80f1158-4574-48b7-90a5-04aa2a9c0d76)
     ![day222](https://github.com/DineshVenkatG/pes_pd/assets/99543009/7df797cd-479e-444b-b0e4-f32fe254c0a2)
 
+</details>
+<details>
+  <summary>DAY3 : CMOS Inverter ngspice simulations</summary>
+
+  git clone the following to get all the necessary files
+  ```
+cd OpenLane
+git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+cd vsdstdcelldesign
+```
+
+make sure your sky130A.tech file is in ```vsdstdcelldesign``` folder , if not you can copy it .
+
+To view the layout use the following command :
+```
+magic -T sky130A.tech sky130_inv.mag &
+```
+![day3](https://github.com/DineshVenkatG/pes_pd/assets/99543009/bafa87d7-8d67-4ba4-bf48-eb431d4a131f)
+
+we perform sll the dimulstions on the spice file , to extract the spice file use the following command in tckcon window:
+
+```
+pwd
+extract all
+ext2spice cthresh 0 rthresh 0
+ext2spice
+
+```
+you need to make some changes in the spice file to get the simulation results :
+
+![image](https://github.com/AdrikaMohanty/pes_pd/assets/84654826/839c3b13-32cc-45d9-b409-44eda5318644)
+
+
+to see the ngspice simulation:
+```ngspice sky130_inv.spice```
